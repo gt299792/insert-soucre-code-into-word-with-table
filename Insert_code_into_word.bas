@@ -124,6 +124,7 @@ START_INPUT:
     
     
     mytable.Cell(1, 1).Range.ParagraphFormat.Alignment = wdAlignParagraphRight
+    mytable.Cell(1, 1).Range.Font.Color = RGB(192, 192, 192)
     
     For i = 1 To line_count - 1
         mytable.Cell(1, 1).Range.InsertAfter text:=i
